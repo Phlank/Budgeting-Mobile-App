@@ -30,8 +30,8 @@ Links
 
 -	[Project description](https://github.com/Phlank/BudgetingMobileApp/blob/master/ProjectDescription.md)
 -	[clubhouse.io](https://app.clubhouse.io/budgetingmobileapp/projects)
--	[Team meeting minutes]
--	[Client partner minutes]
+-	[Team meeting minutes](https://github.com/Phlank/BudgetingMobileApp/tree/master/Meeting%20Minutes/Team)
+-	[Client partner minutes](https://github.com/Phlank/BudgetingMobileApp/tree/master/Meeting%20Minutes/ClientPartner)
 
 Code Repositories
 -----------------

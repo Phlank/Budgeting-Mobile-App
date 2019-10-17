@@ -1,10 +1,21 @@
-# Project Description
+Project Description
+===================
 
-## Summary
+Summary
+-------
 
-## High-level Features
+High-level Features
+-------------------
 
-## Non-functional Requirements
-* Android
+-	Get information from user and create "recommended" budget
+-	Have some financial education stuff in there
+-	Track user spending
+-	Continue to improve budget by prompting user for information
 
-## Constraints
+Non-functional Requirements
+---------------------------
+
+-	Android, no iOS
+
+Constraints
+-----------
