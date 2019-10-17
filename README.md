@@ -6,6 +6,8 @@ BSU Computer Science Capstone Project
 Summary
 -------
 
+An app that helps you create a budget.
+
 Team Members
 ------------
 

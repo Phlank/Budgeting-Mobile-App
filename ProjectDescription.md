@@ -4,6 +4,8 @@ Project Description
 Summary
 -------
 
+An app that helps you create a budget.
+
 High-level Features
 -------------------
 
