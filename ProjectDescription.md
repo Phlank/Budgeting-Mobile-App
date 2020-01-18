@@ -17,7 +17,8 @@ High-level Features
 Non-functional Requirements
 ---------------------------
 
--	Android, no iOS
+-	Built in Flutter, written in Dart
+-	Deployable to both iOS and Android
 
 Constraints
 -----------
