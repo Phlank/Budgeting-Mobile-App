@@ -10,5 +10,10 @@ User manual
 
 1.	Launch application
 2.	Tap on 'New User' button
+
 3.	Fill out forms as they direct
-4.	Interact with the pie chart by tapping on it etc.
+4.  Interact with the side menu to go to different categories
+
+Demo Video
+==========
+[Video on showing use](https://youtu.be/P_akw7ZwrjA)
