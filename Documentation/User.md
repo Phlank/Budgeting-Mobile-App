@@ -10,13 +10,13 @@ User manual
 
 1.	Launch application
 2.	Tap on 'New User' button
-![LoginPage](./login_screen.png)*new user button is at the bottom of screen*
+![LoginPage](./photo/login_screen.png)*new user button is at the bottom of screen*
 3.	Fill out forms as they direct
-![DataEntry](./Screenshot_1579313266.png)*example of entry point*
+![DataEntry](./photo/Screenshot_1579313266.png)*example of entry point*
 4.  once you get through the form youll see the pie chart
-![PieChart](./pie_chart.png)*pie chart of budget*
+![PieChart](./photo/pie_chart.png)*pie chart of budget*
 5.  Interact with the side menu to go to different categories
-![SideMenu](./view_sideMenu.png)*category options*
+![SideMenu](./photo/view_sideMenu.png)*category options*
 
 Demo Video
 ==========
