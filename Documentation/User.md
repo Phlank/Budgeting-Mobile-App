@@ -20,7 +20,7 @@ User manual
 6. Interact with the side menu to go to different categories, you can also ctap on the <em>Needs, Wants or Savings</em> sections of the home page and it will direct you to the change screens as well
 ![SideMenu](./photo/new_SideMenu.png)*category options*<br><br>
 7. the Side menu options will direct you to a page that looks like this:
-![categoryDisplay](changeAlotment.png)*this is the Wants section Page*<br><br>
+![categoryDisplay](./photo/changeAlotment.png)*this is the Wants section Page*<br><br>
 
 Demo Video
 ==========
