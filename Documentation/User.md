@@ -9,15 +9,19 @@ User manual
 ===========
 
 1.	Launch application
-2.	Tap on 'New User' button
-![LoginPage](./photo/login_screen.png)*new user button is at the bottom of screen*
-3.	Fill out forms as they direct
-![DataEntry](./photo/Screenshot_1579313266.png)*example of entry point*
-4.  once you get through the form youll see the pie chart
-![PieChart](./photo/pie_chart.png)*pie chart of budget*
-5.  Interact with the side menu to go to different categories
-![SideMenu](./photo/view_sideMenu.png)*category options*
+2.	If you are a new User you'll be greeted with this just fill out the requested information 
+![DataEntry](./photo/dataEntry_1.png)*first entry point*<br><br>
+3.	If you are a returning user you will see this screen just enter your pin for your account and it will load your information
+![LoginPage](./photo/login_screen.png)**<br><br>
+4.  once you get through the form youll see the Home page this displays the pie chart of the budget, your section allotments, cashflow for the current month, and the transactions for the month.
+![PieChart](./photo/new_userPage.png)*pie chart of budget*<br><br>
+5. If you press the Plus sign it will direct you to this page which will allow you to add transactions that have been made
+![AddTransactionPage](./photo/addTransaction.png)*Transation adding page*
+6. Interact with the side menu to go to different categories, you can also ctap on the <em>Needs, Wants or Savings</em> sections of the home page and it will direct you to the change screens as well
+![SideMenu](./photo/new_SideMenu.png)*category options*<br><br>
+7. the Side menu options will direct you to a page that looks like this:
+![categoryDisplay](changeAlotment.png)*this is the Wants section Page*<br><br>
 
 Demo Video
 ==========
-[Video on showing use](https://youtu.be/P_akw7ZwrjA)
+[Video on showing use](https://youtu.be/Blm0Ip45sQE)*demo of use for thoes that want to see it in action*
