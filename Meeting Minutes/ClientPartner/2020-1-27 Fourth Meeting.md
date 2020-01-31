@@ -12,9 +12,9 @@ Discussed the goals for Iteration Four and recived some feature Requsts from Bri
 
 Reactions
 ---------
-Mat - was there but didn't seem to have much to say other than he liked what he saw 
-Dan - was glad to see we have made progress toward goals and was seemingly positve about our progress moving foward
-Brian -seemed a little distracted but he was listening he was and did give a feature request
+Dan - was glad to see we have made progress toward goals and was seemingly positve about our progress moving foward\
+Brian -seemed a little distracted but he was listening he was and did give a feature request\
+Mat - was there but didn't seem to have much to say other than he liked what he saw
 
 
 Suggested Features
