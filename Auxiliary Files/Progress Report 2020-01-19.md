@@ -3,8 +3,8 @@ Progress Report - Budgeting Mobile App
 
 01-19-2020
 
--	Code repository on day of meeting (01/13/2020): [69f6772dc17f00535c803c6f576a31a9b589542e](https://github.com/Phlank/AccutechBudgetingApp/tree/69f6772dc17f00535c803c6f576a31a9b589542e\)
--	Code repository at end of day (01/19/2020): [fa6735796f4b6914d5df6de9514c2922f06121b6](https://github.com/Phlank/AccutechBudgetingApp/tree/fa6735796f4b6914d5df6de9514c2922f06121b6\)
+-	Code repository on day of meeting (01/13/2020): [69f6772dc17f00535c803c6f576a31a9b589542e](https://github.com/Phlank/AccutechBudgetingApp/tree/69f6772dc17f00535c803c6f576a31a9b589542e)
+-	Code repository at end of day (01/19/2020): [fa6735796f4b6914d5df6de9514c2922f06121b6](https://github.com/Phlank/AccutechBudgetingApp/tree/fa6735796f4b6914d5df6de9514c2922f06121b6)
 -	Diff: 31 commits
 
 Code cleanup
