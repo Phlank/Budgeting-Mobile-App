@@ -6,6 +6,8 @@ Summary
 
 An app that helps you create a budget.
 
+By giving minimal input, we want to provide you with a budget to follow. This budget can receive your transactions and update month to month based on your spending.
+
 High-level Features
 -------------------
 
