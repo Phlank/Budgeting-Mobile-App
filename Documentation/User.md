@@ -24,7 +24,7 @@ User manual
 9. If for some reason you want to change details of a transaction select the transaction and it will direct you to an edit transaction page.
 > <img src='./photo/editTransaction.png' alt='LoginPage' width ='200'>
 10. If at any point you want to start over you can select the refresh button in the corner and remove your data and start with an all new data
-> <img src='./photo/' alt='LoginPage' width ='200'>
+> <img src='./photo/userPage_withArrow.png' alt='LoginPage' width ='200'>
 
 
 Demo Video
