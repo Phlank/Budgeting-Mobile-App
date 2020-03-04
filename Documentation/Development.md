@@ -1,7 +1,7 @@
 Development manual
 ==================
 
-This manual assumes you are using Windows 10. It's not 100% necessary to make your own development environment, but it is the one we used.
+This manual assumes you are using Windows 10. It's not 100% necessary to use it for your own development environment, but it is the one we used.
 
 Download and install [Git for Windows](https://git-scm.com/download/win)
 ------------------------------------------------------------------------
@@ -85,6 +85,13 @@ Starting up Android Studio for the first time
 17.	Similar to step 11, retrieve the Flutter SDK path
 18.	Click 'Apply' and 'OK' in that order
 19.	In the bar over the text editor, click 'Get dependencies'
+
+Adding a Google Maps API Key
+----------------------------
+
+1.	Get a Google Maps API Key by following the steps found [here](https://developers.google.com/maps/documentation/javascript/get-api-key). Restrict the key using the steps later in the page to mobile apps.
+2.	Copy your Google Maps API Key to the clipboard.
+3.
 
 You're done!
 ------------
