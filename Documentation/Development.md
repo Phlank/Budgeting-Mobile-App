@@ -91,7 +91,11 @@ Adding a Google Maps API Key
 
 1.	Get a Google Maps API Key by following the steps found [here](https://developers.google.com/maps/documentation/javascript/get-api-key). Restrict the key using the steps later in the page to mobile apps.
 2.	Copy your Google Maps API Key to the clipboard.
-3.
+3.	In [project-root]/android/local.properties, type 'google.map.key=[PASTE_API_KEY]'
+4.	In [project-root]/lib/model, create a new file called 'keys.dart'
+5.	In keys.dart, type "const googleMapsAPIKey = '[PASTE_API_KEY]';"
+
+These specific files are not linked with git, so your API key will not be exposed in the repository.
 
 You're done!
 ------------

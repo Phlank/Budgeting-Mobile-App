@@ -6,7 +6,7 @@ In-line Code Documentation
 month.dart
 ----------
 
-#### Line 49
+#### Line 45
 
 ```
 Month build() {
@@ -28,7 +28,7 @@ Usually in a builder, you need to verify that components are not null for the ob
 
 ### budget.dart
 
-#### Line 69
+#### Line 86
 
 ```
 // Makes a new budget based on the allocations of an old budget
@@ -41,7 +41,7 @@ Usually in a builder, you need to verify that components are not null for the ob
   }
 ```
 
-This function is used by the PriorityBudgetFactory class. There's one crucial part of this function that if done differently would change the behavior of PriorityBudgetFactory completely, and that's the copyOf constructor. Without this, this.\_allotted would be the same object in memory as old.\_allotted.
+This function is used by the PriorityBudgetFactory. There's one crucial part of this function that if done differently would change the behavior of PriorityBudgetFactory completely, and that's the copyOf constructor. Without this, this.\_allotted would be the same object in memory as old.\_allotted.
 
 ### steel_crypter.dart
 
