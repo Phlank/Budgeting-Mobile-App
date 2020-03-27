@@ -15,4 +15,4 @@ User manual
 Demo Video
 ==========
 
-[Video on showing use](https://youtu.be/vAUlvSbH0gY)<br>*demo of use for those that want to see it in action*
+[Video on showing use](https://youtu.be/y2a_lkeqrvc)<br>*demo of use for those that want to see it in action*
