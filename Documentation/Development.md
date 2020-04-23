@@ -99,3 +99,26 @@ These specific files are not linked with git, so your API key will not be expose
 
 You're done!
 ------------
+<div id="#linux_instructions">
+if you're using a debian linux (5.0 or new) these instructions are for you
+
+Getting the required software
+------------------------------
+
+1. open your cmd prompt
+2. update and upgrade before starting (sudo apt-get update && sudo apt-get upgrade) // not technically needed
+3. type command  ```$> sudo apt-get install libdart6-dev``` // this is installing dart
+4. download this [file](https://storage.googleapis.com/flutter_infra/releases/stable/linux/flutter_linux_v1.12.13+hotfix.9-stable.tar.xz)
+5. unpack it with this command ```$> tar xf /PATH_WHERE_YOU_PUT_THIS/flutter_linux_v1.12.13+hotfix.9-stable.tar.xz```
+6. OR  if you have git as an option ```$> git clone https://github.com/flutter/flutter.git -b stable```
+7. add to path with instructions [here](https://flutter.dev/docs/get-started/install/linux#update-your-path)
+now you have the needed software. 
+ Getting the source code
+
+1. if you have git then just ```$> git clone https://github.com/Phlank/AccutechBudgetingApp.git```
+2. if not then download the zip file and run command ```$> unzip /PATH_WHERE_YOU_PUT_THIS/AccutechBudgetingApp.zip```
+Done.
+
+setting up the ide
+1. either run command ```sudo apt-get install```
+</div>
