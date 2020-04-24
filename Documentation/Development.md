@@ -115,7 +115,7 @@ now you have the needed software.
 
 
 1. If you have git then just ```$ git clone https://github.com/Phlank/AccutechBudgetingApp.git```
-1.a. If you want to use git but have it run command ```$ sudo apt-get install git```
+1.a. If you want to use git but don't have it, run command ```$ sudo apt-get install git```
 2. If not then download the zip file and run command ```$> unzip /PATH_WHERE_YOU_PUT_THIS/AccutechBudgetingApp.zip```
 Done.
 
@@ -139,3 +139,8 @@ setting up the ide
 
 Your done!
 -----------
+
+# Recommendations
+* get familiar with pub documentation and the pub plugin library
+* get familiar with the flutter command line tool
+* 
