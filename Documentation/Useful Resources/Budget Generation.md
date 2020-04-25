@@ -46,21 +46,14 @@ There are four tiers of allocations, and all are dependent on the ratio of `hous
 
 The following is the table demonstrating how the ratio `housing percent` corresponds to the ratios of needs, wants, and savings in a `growth` budget.
 
-| Housing percent |  | Needs | Wants | Savings |
-|-----------------|--|-------|-------|---------|
-| 0.3             |  | 0.5   | 0.3   | 0.2     |
-| 0.55            |  | 0.75  | 0.15  | 0.2     |
-| 0.7             |  | 0.85  | 0.1   | 0.05    |
-| 1.0             |  | 0.94  | 0.05  | 0.01    |
+| Housing percent |  | Needs | Wants | Savings |  | ----------------- | -- | ------- | ------- | --------- |  | 0.3 |  | 0.5 | 0.3 | 0.2 |  | 0.55 |  | 0.75 | 0.15 | 0.2 |  | 0.7 |  | 0.85 | 0.1 | 0.05 |  | 1.0 |  | 0.94 | 0.05 | 0.01 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 
 The following is the same for `depletion`.
 
-| Housing percent |  | Needs | Wants | Savings |
-|-----------------|--|-------|-------|---------|
-| 0.3             |  | 0.6   | 0.4   | 0.0     |
-| 0.55            |  | 0.75  | 0.25  | 0.0     |
-| 0.7             |  | 0.9   | 0.1   | 0.0     |
-| 1.0             |  | 0.95  | 0.05  | 0.0     |
+| Housing percent |  | Needs | Wants | Savings |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ----------------- | -- | ------- | ------- | --------- |  | 0.3 |  | 0.6 | 0.4 | 0.0 |  | 0.55 |  | 0.75 | 0.25 | 0.0 |  | 0.7 |  | 0.9 | 0.1 | 0.0 |  | 1.0 |  | 0.95 | 0.05 | 0.0 |
 
 #### Making the allocation
 
@@ -79,3 +72,25 @@ There are no exceptional categories in `wants`, so money is simply divided evenl
 There is only one category here, so all money is allocated to that category.
 
 ### Generating a new budget for new months
+
+#### Overspending and Underspending
+
+The program makes a sweep through the `oldBudget.actual` AllocationList. In this sweep, a few things happen:
+
+1.	Any categories where underspending occurred are added to a new list, `underspendingAllocations`.
+2.	For all underspending categories, add `underspent in category / 2` to `delta`.
+3.	Any categories where overspending occurred are added to a new list, `overspendingAllocations`.
+4.	For all overspending categories, add `overspent in category` to `overspending`.
+
+The program makes another sweep, where
+
+1.	All overspending categories are assigned a ratio defined by `overspent in category / overspending`. This ratio is the percent amount of which it consists of all overspending.
+
+#### Reallocation
+
+Finally, the program sweeps through all categories again and does the following:
+
+1.	If the current `category` is underspending, subtract `underspending in category / 2` from the allotment.
+2.	If the current `category` is overspending, add `delta * overspent in category / overspending`.
+
+Another way to think of this is that there are two pies, overspending and underspending. You take half of the underspending pie, and put it into the overspending pie so that each piece (category) of each pie grows or shrinks based on how much of the pie it takes up.
