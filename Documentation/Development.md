@@ -1,7 +1,7 @@
 Development manual
 ==================
 
-This manual assumes you are using Windows 10. It's not 100% necessary to use it for your own development environment, but it is the one we used.
+the linux instructions are under the windows one.
 
 Download and install [Git for Windows](https://git-scm.com/download/win)
 ------------------------------------------------------------------------
@@ -99,3 +99,48 @@ These specific files are not linked with git, so your API key will not be expose
 
 You're done!
 ------------
+## Linux Instructions
+if you're using a debian linux (5.0 or new) these instructions are for you
+
+Getting the required software
+------------------------------
+1. Open your cmd prompt
+2. Update and upgrade before starting ```$ sudo apt-get update && sudo apt-get upgrade```
+3. Type command  ```$ sudo apt-get install libdart6-dev``` 
+4. Download this [file](https://storage.googleapis.com/flutter_infra/releases/stable/linux/flutter_linux_v1.12.13+hotfix.9-stable.tar.xz)
+5. Unpack it with this command ```$ tar xf /PATH_WHERE_YOU_PUT_THIS/flutter_linux_v1.12.13+hotfix.9-stable.tar.xz```
+6. OR  if you have git as an option ```$ git clone https://github.com/flutter/flutter.git -b stable```
+7. Add to path with instructions [here](https://flutter.dev/docs/get-started/install/linux#update-your-path)
+now you have the needed software. 
+
+
+1. If you have git then just ```$ git clone https://github.com/Phlank/AccutechBudgetingApp.git```
+1.a. If you want to use git but don't have it, run command ```$ sudo apt-get install git```
+2. If not then download the zip file and run command ```$> unzip /PATH_WHERE_YOU_PUT_THIS/AccutechBudgetingApp.zip```
+Done.
+
+setting up the ide
+------------------
+
+## intelliJ & Android Studios
+1. If you want to command line install community intellij type ```$sudo snap install intellij-idea-community --classic --edge```
+2. If you want android studios ```$ sudo snap install android-studio```
+3. Once it installs open it set it up how you want, then it should restart
+4. After this it will prompt you with a screen select import to open a file explorer window navigate and select the project folder. 
+4. Once the code is open in the IDE, it should prompt you to install flutter, and the dart plugins follow on screen instructions
+ And after that you are ready to program.
+ 
+## vscode
+1. To install run command ```$ sudo snap install --classic code```
+2. To run type ```$ code```
+3. That should open the IDE, then direct to file > open file then direct to the projects containing file select open
+4. The editor should prompt you to install dart and then also recommend flutter to install 
+5. Then follow on screen instructions and then you can effectively work on the project. 
+
+Your done!
+-----------
+
+# Recommendations
+* get familiar with pub documentation and the pub plugin library
+* get familiar with the flutter command line tool
+* 
